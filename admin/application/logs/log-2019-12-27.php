@@ -1,0 +1,26 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-12-27 07:49:33 --> 404 Page Not Found: Assets/js
+ERROR - 2019-12-27 10:49:15 --> Severity: Warning --> Missing argument 1 for User_api::EmpJobCompleted() /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 1349
+ERROR - 2019-12-27 10:49:15 --> Severity: Notice --> Undefined variable: sr_id /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 1351
+ERROR - 2019-12-27 10:49:15 --> Severity: Notice --> Undefined index: service_request_ref /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1487
+ERROR - 2019-12-27 10:49:15 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1493
+ERROR - 2019-12-27 10:49:15 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1501
+ERROR - 2019-12-27 10:49:15 --> Query error: Column 'users_notification_sr_id' cannot be null - Invalid query: INSERT INTO `tbl_users_notification_log` (`users_notification_sr_id`, `users_notification_message`, `users_notification_status`, `users_notification_createat`, `isDeleted`, `userId`) VALUES (NULL, 'For Oreder no# our employee :  has completed job.', 0, '2019-12-27 10:49:15', 0, 2)
+ERROR - 2019-12-27 10:49:15 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/system/core/Exceptions.php:271) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-27 10:53:19 --> Severity: Notice --> Undefined variable: sr_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 731
+ERROR - 2019-12-27 13:19:52 --> Severity: Notice --> Undefined index: tbl_emp_device_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1929
+ERROR - 2019-12-27 13:22:48 --> Severity: Notice --> Undefined index: tbl_emp_device_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1929
+ERROR - 2019-12-27 13:23:49 --> Severity: Notice --> Undefined index: tbl_emp_device_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1929
+ERROR - 2019-12-27 13:24:53 --> Severity: Notice --> Undefined index: tbl_emp_device_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1929
+ERROR - 2019-12-27 13:25:54 --> Severity: Notice --> Undefined index: tbl_emp_device_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1929
+ERROR - 2019-12-27 15:08:37 --> Severity: Notice --> Undefined variable: img2 /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 598
+ERROR - 2019-12-27 15:08:37 --> Query error: Column 'sr_docs_thumb' cannot be null - Invalid query: INSERT INTO `sr_docs` (`sr_id`, `is_image`, `sr_docs_type`, `sr_docs_url`, `sr_docs_thumb`, `creatd_at`) VALUES ('23', '1', '0', 'http://wahidfix.com/admin/assets/service_request/sr_docs_vid_5e05e6356c89d.mp4', NULL, '2019-12-27 15:08:37')
+ERROR - 2019-12-27 15:08:37 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/system/core/Exceptions.php:271) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-27 15:50:14 --> Severity: Warning --> Missing argument 2 for User_api_model::get_notification_list(), called in /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php on line 444 and defined /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 2078
+ERROR - 2019-12-27 15:50:14 --> Severity: Warning --> Missing argument 3 for User_api_model::get_notification_list(), called in /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php on line 444 and defined /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 2078
+ERROR - 2019-12-27 15:50:14 --> Severity: Notice --> Undefined variable: offset /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 2082
+ERROR - 2019-12-27 15:50:14 --> Severity: Notice --> Undefined variable: limit /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 2083
+ERROR - 2019-12-27 15:50:14 --> Severity: Notice --> Undefined variable: limit /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 2094
+ERROR - 2019-12-27 15:50:14 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: SELECT sr.sr_id,sr.service_request_ref,sr.prefferd_date,sr.prefferd_time,sr.created_at,sr.status,t.time_slot_name,sr.pending_amount,sr.assigned_emp_id,sr.status,sr.pending_amount,sr.isQuotation FROM tbl_service_request sr LEFT JOIN tbl_time_slot t ON t.time_slot_id=sr.prefferd_time  WHERE sr.isDeleted = 0 AND sr.status = 1 ORDER BY sr.sr_id DESC LIMIT 0,
+ERROR - 2019-12-27 15:50:14 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/system/core/Exceptions.php:271) /home/wahidfix/public_html/admin/system/core/Common.php 570

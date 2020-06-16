@@ -1,0 +1,82 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-12-24 09:05:52 --> Severity: Notice --> Undefined index: service_request_ref /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1395
+ERROR - 2019-12-24 09:05:52 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1401
+ERROR - 2019-12-24 09:05:52 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1409
+ERROR - 2019-12-24 09:30:57 --> Severity: Warning --> Illegal string offset 'sr_id' /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1354
+ERROR - 2019-12-24 09:30:57 --> Severity: Warning --> Illegal string offset 'sr_id' /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1364
+ERROR - 2019-12-24 09:34:11 --> Severity: Notice --> Undefined index: sr_id /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 582
+ERROR - 2019-12-24 09:34:11 --> Severity: Notice --> Undefined index: sr_docs_type /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 582
+ERROR - 2019-12-24 09:37:08 --> Severity: Notice --> Undefined index: sr_id /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 582
+ERROR - 2019-12-24 09:37:08 --> Severity: Notice --> Undefined index: sr_docs_type /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 582
+ERROR - 2019-12-24 09:42:09 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php:1174) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-24 09:42:09 --> Severity: Parsing Error --> syntax error, unexpected end of file /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 1174
+ERROR - 2019-12-24 09:42:23 --> 404 Page Not Found: Assets/service_request
+ERROR - 2019-12-24 11:23:10 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 2060
+ERROR - 2019-12-24 11:23:56 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 2060
+ERROR - 2019-12-24 11:24:30 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 2060
+ERROR - 2019-12-24 11:28:35 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 2060
+ERROR - 2019-12-24 11:33:23 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1097
+ERROR - 2019-12-24 11:33:55 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1097
+ERROR - 2019-12-24 11:48:22 --> Severity: Notice --> Undefined index: service_request_ref /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1445
+ERROR - 2019-12-24 11:48:22 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1451
+ERROR - 2019-12-24 11:48:22 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1459
+ERROR - 2019-12-24 11:52:06 --> Severity: error --> Exception: /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php exists, but doesn't declare class User_api_model /home/wahidfix/public_html/admin/system/core/Loader.php 340
+ERROR - 2019-12-24 11:52:15 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php:1358) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-24 11:52:15 --> Severity: Parsing Error --> syntax error, unexpected '$this' (T_VARIABLE) /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1358
+ERROR - 2019-12-24 12:54:32 --> 404 Page Not Found: webapi/User_api/EmpJobStarted
+ERROR - 2019-12-24 14:25:46 --> Severity: Notice --> Undefined variable: sr_id /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 2174
+ERROR - 2019-12-24 14:25:46 --> Query error: Column 'sales_quotation_id' cannot be null - Invalid query: INSERT INTO `tbl_sales_master` (`sales_quotation_id`, `sales_quotation_employee_id`, `sales_quotation_sr_id`, `sales_master_createdat`, `sales_master_updatedat`, `sales_master_status`, `isDeleted`) VALUES (NULL, NULL, NULL, '2019-12-24 14:25:46', '2019-12-24 14:25:46', 0, 0)
+ERROR - 2019-12-24 14:25:46 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/system/core/Exceptions.php:271) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-24 14:26:27 --> Severity: Notice --> Undefined variable: signature /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 2187
+ERROR - 2019-12-24 14:26:27 --> Severity: Warning --> Missing argument 3 for User_api_model::insert_user_notification(), called in /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php on line 2198 and defined /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1497
+ERROR - 2019-12-24 14:26:27 --> Severity: Notice --> Undefined variable: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1506
+ERROR - 2019-12-24 14:26:27 --> Query error: Column 'tbl_user_id' cannot be null - Invalid query: INSERT INTO `tbl_user_notification_log` (`user_notification_sr_id`, `user_notification_message`, `user_notification_status`, `user_notification_createat`, `isDeleted`, `tbl_user_id`) VALUES ('2', 'Your order Completed with WahidFix. Thanks For using our Services.', 0, '2019-12-24 14:26:27', 0, NULL)
+ERROR - 2019-12-24 14:26:27 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/system/core/Exceptions.php:271) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-24 14:27:00 --> Severity: Warning --> Missing argument 3 for User_api_model::insert_user_notification(), called in /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php on line 2198 and defined /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1497
+ERROR - 2019-12-24 14:27:00 --> Severity: Notice --> Undefined variable: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1506
+ERROR - 2019-12-24 14:27:00 --> Query error: Column 'tbl_user_id' cannot be null - Invalid query: INSERT INTO `tbl_user_notification_log` (`user_notification_sr_id`, `user_notification_message`, `user_notification_status`, `user_notification_createat`, `isDeleted`, `tbl_user_id`) VALUES ('2', 'Your order Completed with WahidFix. Thanks For using our Services.', 0, '2019-12-24 14:27:00', 0, NULL)
+ERROR - 2019-12-24 14:27:00 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/system/core/Exceptions.php:271) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-24 14:27:59 --> Severity: Warning --> Missing argument 3 for User_api_model::insert_user_notification(), called in /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php on line 2198 and defined /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1497
+ERROR - 2019-12-24 14:27:59 --> Severity: Notice --> Undefined variable: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1506
+ERROR - 2019-12-24 14:27:59 --> Query error: Column 'tbl_user_id' cannot be null - Invalid query: INSERT INTO `tbl_user_notification_log` (`user_notification_sr_id`, `user_notification_message`, `user_notification_status`, `user_notification_createat`, `isDeleted`, `tbl_user_id`) VALUES ('2', 'Your order Completed with WahidFix. Thanks For using our Services.', 0, '2019-12-24 14:27:59', 0, NULL)
+ERROR - 2019-12-24 14:27:59 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/system/core/Exceptions.php:271) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-24 15:41:43 --> 404 Page Not Found: Admin/assets
+ERROR - 2019-12-24 15:46:24 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1106
+ERROR - 2019-12-24 15:46:27 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1106
+ERROR - 2019-12-24 15:46:54 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1106
+ERROR - 2019-12-24 15:46:57 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1106
+ERROR - 2019-12-24 15:47:22 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1106
+ERROR - 2019-12-24 15:47:41 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1106
+ERROR - 2019-12-24 15:47:46 --> Severity: Warning --> array_merge(): Argument #2 is not an array /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1106
+ERROR - 2019-12-24 15:54:32 --> Severity: Warning --> Missing argument 1 for User_api::EmpJobCompleted() /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 1294
+ERROR - 2019-12-24 15:54:32 --> Severity: Notice --> Undefined variable: sr_id /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 1296
+ERROR - 2019-12-24 15:54:32 --> Severity: Notice --> Undefined index: service_request_ref /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1455
+ERROR - 2019-12-24 15:54:32 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1461
+ERROR - 2019-12-24 15:54:32 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1469
+ERROR - 2019-12-24 15:54:32 --> Query error: Column 'users_notification_sr_id' cannot be null - Invalid query: INSERT INTO `tbl_users_notification_log` (`users_notification_sr_id`, `users_notification_message`, `users_notification_status`, `users_notification_createat`, `isDeleted`, `userId`) VALUES (NULL, 'For Oreder no# our employee :  has completed job.', 0, '2019-12-24 15:54:32', 0, 2)
+ERROR - 2019-12-24 15:54:32 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/system/core/Exceptions.php:271) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-24 15:55:00 --> Severity: Warning --> Missing argument 1 for User_api::EmpJobCompleted() /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 1294
+ERROR - 2019-12-24 15:55:00 --> Severity: Notice --> Undefined variable: sr_id /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 1296
+ERROR - 2019-12-24 15:55:00 --> Severity: Notice --> Undefined index: service_request_ref /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1455
+ERROR - 2019-12-24 15:55:00 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1461
+ERROR - 2019-12-24 15:55:00 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1469
+ERROR - 2019-12-24 15:55:00 --> Query error: Column 'users_notification_sr_id' cannot be null - Invalid query: INSERT INTO `tbl_users_notification_log` (`users_notification_sr_id`, `users_notification_message`, `users_notification_status`, `users_notification_createat`, `isDeleted`, `userId`) VALUES (NULL, 'For Oreder no# our employee :  has completed job.', 0, '2019-12-24 15:55:00', 0, 2)
+ERROR - 2019-12-24 15:55:00 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/system/core/Exceptions.php:271) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-24 15:57:16 --> Severity: Warning --> Missing argument 1 for User_api::EmpJobCompleted() /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 1294
+ERROR - 2019-12-24 15:57:16 --> Severity: Notice --> Undefined variable: sr_id /home/wahidfix/public_html/admin/application/controllers/webapi/User_api.php 1296
+ERROR - 2019-12-24 15:57:16 --> Severity: Notice --> Undefined index: service_request_ref /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1455
+ERROR - 2019-12-24 15:57:16 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1461
+ERROR - 2019-12-24 15:57:16 --> Severity: Notice --> Undefined index: tbl_user_id /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 1469
+ERROR - 2019-12-24 15:57:16 --> Query error: Column 'users_notification_sr_id' cannot be null - Invalid query: INSERT INTO `tbl_users_notification_log` (`users_notification_sr_id`, `users_notification_message`, `users_notification_status`, `users_notification_createat`, `isDeleted`, `userId`) VALUES (NULL, 'For Oreder no# our employee :  has completed job.', 0, '2019-12-24 15:57:16', 0, 2)
+ERROR - 2019-12-24 15:57:16 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/wahidfix/public_html/admin/system/core/Exceptions.php:271) /home/wahidfix/public_html/admin/system/core/Common.php 570
+ERROR - 2019-12-24 16:22:24 --> Severity: Warning --> array_column() expects parameter 1 to be array, null given /home/wahidfix/public_html/admin/application/views/detailed_status_service_request_view.php 77
+ERROR - 2019-12-24 16:22:24 --> Severity: Warning --> array_column() expects parameter 1 to be array, null given /home/wahidfix/public_html/admin/application/views/detailed_status_service_request_view.php 78
+ERROR - 2019-12-24 16:50:24 --> Severity: Warning --> Illegal string offset 'service_image' /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 911
+ERROR - 2019-12-24 16:50:24 --> Severity: Warning --> Illegal string offset 'service_image' /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 917
+ERROR - 2019-12-24 16:50:24 --> Severity: Warning --> Illegal string offset 'service_id' /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 922
+ERROR - 2019-12-24 16:50:24 --> Severity: Warning --> Illegal string offset 'service_desc' /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 923
+ERROR - 2019-12-24 16:50:32 --> Severity: Warning --> Illegal string offset 'service_image' /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 911
+ERROR - 2019-12-24 16:50:32 --> Severity: Warning --> Illegal string offset 'service_image' /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 917
+ERROR - 2019-12-24 16:50:32 --> Severity: Warning --> Illegal string offset 'service_id' /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 922
+ERROR - 2019-12-24 16:50:32 --> Severity: Warning --> Illegal string offset 'service_desc' /home/wahidfix/public_html/admin/application/models/webapi/User_api_model.php 923
